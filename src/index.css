@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body { font-family: Arial, sans-serif; background:#f7f8fa; margin:0; }
+.container { width:90%; max-width:1000px; margin:40px auto; }
+.top { display:flex; gap:10px; margin-bottom:16px; }
+input, textarea { padding:8px; border:1px solid #ccc; border-radius:6px; width:100%; box-sizing:border-box;}
+button { padding:8px 12px; border-radius:6px; border:none; background:#1f78d1; color:#fff; cursor:pointer;}
+button.delete-btn{ background:#e14b4b; margin-left:6px;}
+.task-table { width:100%; border-collapse:collapse; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.06);}
+.task-table th, .task-table td { padding:12px; border:1px solid #eee; text-align:left; }
+.sort-btn { margin-left:8px; background:transparent; color:#666; border:none; cursor:pointer;}
+.form { background:#fff; padding:20px; border-radius:8px; width:100%; max-width:700px; margin:40px auto; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+.error { color:#c0392b; font-size:13px; margin:6px 0;}
+.pagination { margin-top:12px; text-align:center;}
+.pagination button{ margin:0 4px;}
+.active{ background:#0b5ed7;}
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-btn {
+  background: #3b82f6; /* blue */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.delete-btn {
+  background: #ef4444; /* red */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+}
+
